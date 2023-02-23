@@ -1,6 +1,14 @@
+* { margin: 0; padding: 0;}
+.upMenu{
+    width: 99%;
+    height: 150px;
+    border-radius: 15px;
 
-.new{
-    width: 100%;
-    height: 250px;
-    background-color: BLUE;
+    background-color: darkgray;
+
+    margin:  15px auto auto;
+}
+.downMenu{
+    width: 99%;
+    
 }
