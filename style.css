@@ -10,5 +10,10 @@
 }
 .downMenu{
     width: 99%;
-    
+    height: 600px;
+    border-radius: 15px;
+
+    background-color: wheat;
+
+    margin: 15px auto auto;
 }
