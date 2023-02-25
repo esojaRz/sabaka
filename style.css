@@ -1,19 +1,49 @@
-* { margin: 0; padding: 0;}
-.upMenu{
-    width: 99%;
-    height: 150px;
-    border-radius: 15px;
-
-    background-color: darkgray;
-
-    margin:  15px auto auto;
+*{margin: 0px;
+ padding: 0px;}
+body{
+    height: max-content;
+    font-family: sans-serif;
+    
 }
-.downMenu{
-    width: 99%;
-    height: 600px;
-    border-radius: 15px;
 
-    background-color: wheat;
+.section1{
+    margin: 5px;
+}
+h1{
+    margin-left: 50px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h1::before{
+    background-color: white;
+}
+h2{
+    margin-bottom: 25px;
+    margin-left: 15px;
+    background-color: cornsilk;
 
-    margin: 15px auto auto;
+    font-weight: 500;
+    margin-left: 50px;
+
+    border: 1px solid lightgray;
+    
+    width: 300px;
+    text-align: center;
+  
+}
+.section2{
+    
+}
+h2:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+.section3>h2{
+  
+  margin-bottom: 5px;
+   
 }
